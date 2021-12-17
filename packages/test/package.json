@@ -15,9 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://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@github.com.cnpmjs.org/zhangxwhope/lerna.git"
+    "url": "https://github.com.cnpmjs.org/zhangxwhope/lerna.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
