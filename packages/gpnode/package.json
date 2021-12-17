@@ -1,5 +1,5 @@
 {
-  "name": "gpnode",
+  "name": "gpnode-zxw",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,6 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "ce93f609c3c09c7540cdf223c871dec8fa401782"
 }
