@@ -1,0 +1,23 @@
+{
+  "name": "test-zxw",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "zxw <zxw@winning.com.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://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@github.com.cnpmjs.org/zhangxwhope/lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
