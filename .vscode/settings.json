@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.run": "onType",
+  "prettier.vueIndentScriptAndStyle": false,
+  "compile-hero.disable-compile-files-on-did-save-code": false
+}

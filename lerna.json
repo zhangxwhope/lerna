@@ -1,8 +1,41 @@
 {
+  "version": "0.0.5",
   "packages": [
     "packages/*"
   ],
-  "useWorkspaces": true,
   "npmClient": "yarn",
-  "version": "0.0.5"
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "noCi": true,
+      "ignorePrepublish": true,
+      "message": "chore(release): publish %s"
+    },
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        ".npmrc"
+      ],
+      "version": [
+        "patch"
+      ]
+    },
+    "version": {
+      "conventionalCommits": true,
+      "includeMergedTags": true,
+      "ignoreChanges": [
+        "*.md",
+        ".npmrc"
+      ]
+    }
+  },
+  "npmClientArgs": [
+    "--no-optional"
+  ],
+  "ignoreChanges": [
+    "**/*.md",
+    "**/*.test.ts",
+    "**/test/**",
+    "**/*.npmrc"
+  ]
 }
